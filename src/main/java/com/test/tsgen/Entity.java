@@ -23,11 +23,6 @@ public abstract class Entity<T> {
         return id;
     }
 
-    /**
-     * Renvoie le type de l'entité courante
-     *
-     * @return le type de l'entité courante
-     */
     @JsonGetter("entityType")
     protected abstract EntityType getEntityType();
 }
